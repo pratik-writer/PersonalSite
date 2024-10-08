@@ -1,5 +1,147 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<style type="text/css">
+
+.fa-lg{
+  font-size:50px;
+  color:black;
+}
+
+</style>
+
+</head>
 <body>
-<h3> Hello World</h3>
+    
+
+
+
+
+
+
+
+
+
+
+
+<!-- Description Part -->
+<div class="hero min-h-screen" style="background-image: url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp'); background-size: cover; background-position: center;">
+  <div class="hero-overlay bg-opacity-60">
+  
+
+
+
+<!-- Header Portion -->
+
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+  <div class="bg-gray-800 bg-opacity-70 rounded-lg p-3 ml-auto">
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center md:justify-end">
+      <a class="mr-5 text-white px-3 py-2 rounded transition duration-200 hover:bg-gray-700">Home</a>
+      <a class="mr-5 text-white px-3 py-2 rounded transition duration-200 hover:bg-gray-700">About Me</a>
+      <a class="mr-5 text-white px-3 py-2 rounded transition duration-200 hover:bg-gray-700">Contact</a>
+      <a class="mr-5 text-white px-3 py-2 rounded transition duration-200 hover:bg-gray-700">Writings</a>
+    </nav>
+    </div>
+    
+  </div>
+</header>
+
+<!-- header ends -->
+ 
+  
+  </div>
+  <div class="hero-content text-neutral-content text-center">
+    <div class="max-w-md">
+
+ <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <!-- Circular Image with Border and Shadow -->
+    <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg -mb-16">
+      <img class="object-cover object-center w-full h-full" alt="hero" src="https://dummyimage.com/720x600">
+    </div>
+  </div>
+</section>
+
+
+       <h1 class="mb-5 text-5xl font-bold">Hello Pratik here</h1>
+      <p class="mb-5">
+        My name is Pratik Pokharel.I am a backend developer and an ML enthusiast.I am currently an undergrad student of Electronics,Communication and Information 
+        Engineering at IOE,Thapathali Campus Tribhuwan University.<br><br>
+
+        
+      </p>
+    
+
+<!-- Social Media Icons -->
+
+ <div class="container mx-auto flex justify-center mt-5">
+    <div class="flex space-x-4">
+    <div class="flex items-center justify-center w-20 h-20 bg-gray-500 rounded-full hover:bg-gray-700 transition duration-200">
+      <a href="https://www.facebook.com/pratik.pokharel.54/" class="text-gray-400  flex items-center justify-center w-full h-full hover:text-blue-600 transition duration-200">
+        <i class="fab fa-facebook-f fa-lg"></i>
+      </a>
+      </div>
+      <div class="flex items-center justify-center w-20 h-20 bg-gray-500 rounded-full hover:bg-gray-700 transition duration-200">
+
+      <a href="https://github.com/pratik-writer" class="text-gray-400  flex items-center justify-center w-full h-full hover:text-blue-600 transition duration-200">
+        <i class="fab fa-github fa-lg"></i>
+      </a>
+      </div>
+      <div class="flex items-center justify-center w-20 h-20 bg-gray-500 rounded-full hover:bg-gray-700 transition duration-200">
+
+      <a href="https://instagram.com/pratik_pokh14" class="text-gray-400  flex items-center justify-center w-full h-full hover:text-blue-600 transition duration-200">
+        <i class="fab fa-instagram fa-lg"></i>
+      </a>
+      </div>
+      <div class="flex items-center justify-center w-20 h-20 bg-gray-500 rounded-full hover:bg-gray-700 transition duration-200">
+      <a href="https://www.linkedin.com/in/pratik-pokharel-b684b91a0/" class="text-gray-400  flex items-center justify-center w-full h-full hover:text-blue-600 transition duration-200">
+        <i class="fab fa-linkedin-in fa-lg"></i>
+      </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<br><br>
+
+  
+
+
+
+      
+    </div>
+
+
+  </div>
+</div>
+
+<!-- Footer Section -->
+
+
+<footer class="text-black-800 body-font bg-[#333]  w-full relative bottom-0 left-0 text-center">
+  <div class="container px-3 py-0.01 mx-auto flex items-center sm:flex-row flex-col">
+    <p class="text-sm text-gray-300  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-500 sm:py-2 sm:mt-0 mt-2 text-center">© 2024 —
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-gray ml-1" rel="noopener noreferrer" target="_blank">@Pratik_Pokh</a>
+    </p>
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+      
+    </span>
+  </div>
+</footer>
 </body>
 </html>
