@@ -1,0 +1,41 @@
+{>layout/}
+
+{<body}
+
+
+
+
+
+<!-- Content Section -->
+<div class="pt-20 h-full bg-transparent flex flex-col justify-center items-center mt-6"> <!-- Added margin-top to avoid overlap with navbar -->
+  <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-lg"> <!-- Content box with background and shadow -->
+    <!-- Content Title -->
+    <h1 class="text-3xl font-bold text-gray-800 mb-4">The Silent Breeze</h1> <!-- Reduced font size and margin -->
+
+    <!-- Full Content Text -->
+    <p class="text-gray-600 leading-relaxed mb-4">
+      The silent breeze swept through the fields, leaving a whisper of calm in its wake. Every leaf it touched seemed to come alive, yet remained as still as the moment demanded. The birds sang softly, as if they too understood the peace that the wind brought with it, carrying memories of distant lands and stories untold.
+      <br><br>
+      Each gust was a reminder that even in silence, there is a melody, one that only the heart can hear if it listens closely enough. The breeze moved on, but its presence lingered, like an echo of serenity in the hearts of those who felt it.
+    </p>
+
+    <!-- Button to Return to the Previous Page (Story/Poetry List) -->
+    <a href="/writings" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300"> <!-- Reduced button padding -->
+      Back to Writings
+    </a>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/body}
