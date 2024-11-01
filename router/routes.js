@@ -11,8 +11,13 @@ router.get('/',(req,res)=>{
 
 
 router.get('/contact', (req, res) => {
+
+    const showSuccess = req.query.success === 'true';
+    
     console.log("here");
-    res.render('contact2.dust');
+    res.render('contact2.dust', {
+        showSuccess: showSuccess // Pass the success status to the template
+    });
   })
 
 

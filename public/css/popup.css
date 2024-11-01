@@ -1,0 +1,28 @@
+.success-popup {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+    z-index: 9999;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .success-popup.show {
+    display: block;
+    animation: slideIn 0.5s ease-out;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }

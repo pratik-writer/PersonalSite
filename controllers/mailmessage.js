@@ -24,10 +24,14 @@ const sendmessage=async (req,res)=>{
       try {
         await transporter.sendMail(mailOptions);
         //res.send("Message sent successfully!");
-        res.redirect('/contact?status=success');
+       // res.redirect('/contact?success=true');
+       setTimeout(() => {
+        res.redirect('/contact?success=true');
+    }, 100);
+       
       } catch (error) {
         console.error("Error sending email:", error);
-        res.status(500).send("Error sending message.");
+        res.redirect('/contact?error=true');
       }
 
 };
