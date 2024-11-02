@@ -67,7 +67,8 @@
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <!-- Circular Image with Border and Shadow -->
     <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg -mb-16">
-      <img class="object-cover object-center w-full h-full" alt="hero" src="https://dummyimage.com/720x600">
+      <img class="object-cover object-center w-full h-full" alt="hero" src="https://raw.githubusercontent.com/pratik-writer/PersonalSite/main/images/IMG_0259.JPG
+">
     </div>
   </div>
 </section>
