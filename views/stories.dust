@@ -23,28 +23,34 @@
   
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
     <!-- Writing 1 -->
-    <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow duration-300">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-4">The Silent Breeze s</h2>
-      <p class="text-gray-600">A poem about the beauty of silence, the calm in the wind, and the peace it brings...</p>
-      <a href="/content" class="inline-block mt-4 text-blue-500 hover:text-blue-700">Read More</a>
-    </div>
 
-    <!-- Writing 2 -->
+    {#data}
+    <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow duration-300">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">{title}</h2>
+      <p class="text-gray-600">{content}.</p>
+      <a href="/content/{id}?text=story" class="inline-block mt-4 text-blue-500 hover:text-blue-700">Read More</a>
+    </div>
+{/data}
+
+ <!--
+    
     <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow duration-300">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">Lost in Dreams</h2>
       <p class="text-gray-600">An adventure story within the mind, exploring the boundaries between reality and imagination...</p>
       <a href="story1.html" class="inline-block mt-4 text-blue-500 hover:text-blue-700">Read More</a>
     </div>
 
-    <!-- Writing 3 -->
+   
     <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition-shadow duration-300">
       <h2 class="text-2xl font-semibold text-gray-800 mb-4">The Echoes of Time</h2>
       <p class="text-gray-600">A short story about the past, present, and future, interwoven through the echoes of time...</p>
       <a href="story2.html" class="inline-block mt-4 text-blue-500 hover:text-blue-700">Read More</a>
     </div>
 
-    <!-- More writings can be added similarly -->
-  </div>
+
+        -->
+    
+  
 </div>
 
 

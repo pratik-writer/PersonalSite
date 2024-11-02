@@ -1,6 +1,7 @@
 const express=require('express');
 const router=express.Router();
 const message=require('../controllers/mailmessage');
+const writings=require('../controllers/writings');
 
 
 
@@ -26,21 +27,13 @@ router.get('/contact', (req, res) => {
     res.render('writings.dust');
   })
 
-  router.get('/stories', (req, res) => {
-    res.render('stories.dust');
-  })
+  router.get('/stories',writings.writings_stories);
 
 
-  router.get('/poetries', (req, res) => {
-    res.render('poetries.dust');
-  })
+  router.get('/poetries',writings.writings_poetries);
 
 
-  router.get('/content', (req, res) => {
-    
-    console.log("here");
-    res.render('content.dust');
-  })
+  router.get('/content/:id',writings.content);
 
 
   //Sending Message Portion
