@@ -22,10 +22,7 @@ router.get('/contact', (req, res) => {
   })
 
 
-  router.get('/writings', (req, res) => {
-    console.log("here");
-    res.render('writings.dust');
-  })
+  router.get('/writings',writings.writings_stories);
 
   router.get('/stories',writings.writings_stories);
 
@@ -34,6 +31,10 @@ router.get('/contact', (req, res) => {
 
 
   router.get('/content/:id',writings.content);
+
+  router.get('/aboutme',(req,res)=>{
+    res.render('aboutme.dust')
+  });
 
 
   //Sending Message Portion

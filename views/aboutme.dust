@@ -1,0 +1,114 @@
+{>layout/}
+
+{<body}
+
+
+
+
+<!-- About Me Section -->
+<section class="bg-gray-800 bg-opacity-60 p-8 rounded-lg shadow-lg mt-40">
+  <h2 class="text-3xl font-bold mb-4 text-white">About Me</h2>
+  <p class="text-white">I am Pratik Pokharel. I come from this beautiful city Butwal , Rupandehi. Here is a brief background information about myself</p>
+</section>
+
+<!-- Education Section -->
+<section class="bg-transparent p-8">
+  <h2 class="text-3xl font-bold mb-4 text-white">Education</h2>
+  <div class="space-y-4">
+    <div class="bg-gray-600 bg-opacity-80 p-4 rounded-md">
+      <h3 class="font-semibold text-lg text-white">Thapathali Campus , IOE</h3>
+      <p class="text-white">Bachelors in Electronics,Communication and Information Engineering-2022 to Present</p>
+    </div>
+    <div class="bg-gray-600 bg-opacity-80 p-4 rounded-md">
+      <h3 class="font-semibold text-lg text-white">Kalika Manavgyan Secondary School, Butwal</h3>
+      <p class="text-white">2017-2021</p>
+    </div>
+    <div class="bg-gray-600 bg-opacity-80 p-4 rounded-md">
+      <h3 class="font-semibold text-lg text-white">New Pinewood English Boarding School,Butwal</h3>
+      <p class="text-white">2010-2016</p>
+    </div>
+    <div class="bg-gray-600 bg-opacity-80 p-4 rounded-md">
+      <h3 class="font-semibold text-lg text-white">Arjun Boarding School,Gulmi</h3>
+      <p class="text-white">2007-2009</p>
+    </div>
+  </div>
+</section>
+
+<!-- Hobbies Section -->
+
+<section class="bg-transparent p-8">
+  <h2 class="text-3xl font-bold mb-4 text-white">Hobbies</h2>
+  <h2 class="text-1xl font-plain mb-4 text-white">While I am free, I like to explore stuffs like</h2>
+  <div class="flex flex-wrap gap-4">
+    <div class="flex items-center bg-gray-700 bg-opacity-80 text-white font-medium px-4 py-3 rounded-lg shadow-md">
+      <i class="fas fa-book mr-2"></i> Reading Books
+    </div>
+    <div class="flex items-center bg-gray-700 bg-opacity-80 text-white font-medium px-4 py-3 rounded-lg shadow-md">
+      <i class="fas fa-pen mr-2"></i> Literature and Poetry
+    </div>
+    <div class="flex items-center bg-gray-700 bg-opacity-80 text-white font-medium px-4 py-3 rounded-lg shadow-md">
+      <i class="fas fa-landmark mr-2"></i> Politics
+    </div>
+    <div class="flex items-center bg-gray-700 bg-opacity-80 text-white font-medium px-4 py-3 rounded-lg shadow-md">
+      <i class="fas fa-music mr-2"></i> Hip Hop Music
+    </div>
+    <div class="flex items-center bg-gray-700 bg-opacity-80 text-white font-medium px-4 py-3 rounded-lg shadow-md">
+      <i class="fas fa-futbol mr-2"></i> Sports
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Skills Section -->
+<section class="bg-transparent p-8">
+  <h2 class="text-3xl font-bold mb-4 text-white">Skills</h2>
+  <div class="flex flex-wrap gap-3">
+    <!-- Python -->
+    <span class="bg-blue-500 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-python"></i> Python
+    </span>
+    <!-- HTML -->
+    <span class="bg-orange-500 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-html5"></i> HTML
+    </span>
+    <!-- CSS -->
+   <!--
+    <span class="bg-blue-300 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-css3-alt"></i> CSS
+    </span>
+    -->
+    <!-- Node.js -->
+    <span class="bg-green-600 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-node-js"></i> Node.js
+    </span>
+    <!-- Express.js -->
+    <span class="bg-gray-600 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fas fa-server"></i> Express
+    </span>
+    <!-- C++ -->
+    <span class="bg-blue-700 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-cuttlefish"></i> C++
+    </span>
+    <!-- Git -->
+    <span class="bg-orange-700 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-git"></i> Git
+    </span>
+    <!-- GitHub -->
+    <span class="bg-gray-900 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fab fa-github"></i> GitHub
+    </span>
+    <!-- PostgreSQL -->
+    <span class="bg-blue-800 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fas fa-database"></i> PostgreSQL
+    </span>
+    <!-- Machine Learning -->
+    <span class="bg-green-500 bg-opacity-90 text-white font-semibold px-3 py-2 rounded-lg flex items-center gap-2">
+      <i class="fas fa-brain"></i> Machine Learning
+    </span>
+  </div>
+</section>
+
+
+
+{/body}

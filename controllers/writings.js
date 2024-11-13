@@ -11,7 +11,7 @@ const writings_poetries=async (req,res)=>{
     }
     catch(e){
         console.error(e);
-        res.status(500).send("Error fetching dasta from databse");
+        res.status(500).send("Error fetching data from databse");
     }
 };
 

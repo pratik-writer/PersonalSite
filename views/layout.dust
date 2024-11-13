@@ -58,7 +58,7 @@
 
 
 <!-- Description Part -->
-<div class="hero min-h-screen" style="background-image: url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp'); background-size: cover; background-position: center;">
+<div class="hero min-h-screen bg-fixed bg-cover bg-center" style="background-image: url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp'); background-size: cover; background-position: center;">
   <div class="hero-overlay bg-opacity-60">
   
 
@@ -66,7 +66,7 @@
 
 <!-- Header Portion -->
 
-<header class="text-gray-600 body-font">
+<header class="text-gray-600 body-font relative z-50">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
 
   <div class="bg-gray-800 bg-opacity-70 rounded-lg p-3 ml-auto">
@@ -115,7 +115,7 @@
 <footer class="text-black-800 body-font bg-[#333]  w-full relative bottom-0 left-0 text-center">
   <div class="container px-3 py-0.01 mx-auto flex items-center sm:flex-row flex-col">
     <p class="text-sm text-gray-300  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-500 sm:py-2 sm:mt-0 mt-2 text-center">© 2024 —
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-gray ml-1" rel="noopener noreferrer" target="_blank">@Pratik_Pokh</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-gray ml-1" rel="noopener noreferrer" target="_blank">@Pratik Pokh</a>
     </p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
       

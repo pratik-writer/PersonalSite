@@ -67,9 +67,8 @@
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <!-- Circular Image with Border and Shadow -->
     <div class="w-48 h-48 rounded-full overflow-hidden border-4 border-gray-300 shadow-lg -mb-16">
-      <img class="object-cover object-center w-full h-full" alt="hero" src="https://raw.githubusercontent.com/pratik-writer/PersonalSite/main/images/IMG_0259.JPG
-">
-    </div>
+      <img class="object-cover object-center w-full h-full" alt="hero" src="https://raw.githubusercontent.com/pratik-writer/PersonalSite/main/images/IMG_0262.JPG">
+
   </div>
 </section>
 
@@ -77,7 +76,8 @@
        <h1 class="mb-5 text-5xl font-bold">Hello Pratik here</h1>
       <p class="mb-5">
         My name is Pratik Pokharel.I am a backend developer and an ML enthusiast.I am currently an undergrad student of Electronics,Communication and Information 
-        Engineering at IOE,Thapathali Campus Tribhuwan University.<br><br>
+        Engineering at IOE,Thapathali Campus Tribhuwan University.<br>
+        <i class="fa fa-envelope"></i> : pratikpokhrel14@gmail.com<br>
 
         
       </p>
@@ -137,7 +137,7 @@
 <footer class="text-black-800 body-font bg-[#333]  w-full relative bottom-0 left-0 text-center">
   <div class="container px-3 py-0.01 mx-auto flex items-center sm:flex-row flex-col">
     <p class="text-sm text-gray-300  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-500 sm:py-2 sm:mt-0 mt-2 text-center">© 2024 —
-      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-gray ml-1" rel="noopener noreferrer" target="_blank">@Pratik_Pokh</a>
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="text-gray ml-1" rel="noopener noreferrer" target="_blank">@Pratik Pokh</a>
     </p>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
       

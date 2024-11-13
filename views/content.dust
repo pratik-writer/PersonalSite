@@ -6,25 +6,33 @@
 
 
 
-<!-- Content Section -->
+
+
+
+<!-- Newer Code -->
+
+
+
 {#data}
-<div class="pt-20 h-full bg-transparent flex flex-col justify-center items-center mt-6"> <!-- Added margin-top to avoid overlap with navbar -->
-  <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-lg"> <!-- Content box with background and shadow -->
+<div class="pt-20 h-full bg-transparent flex flex-col justify-center items-center mt-6"> <!-- Adjusted margin-top to avoid navbar overlap -->
+  <div class="max-w-md w-full p-6 bg-gray-800 bg-opacity-90 text-gray-100 rounded-lg shadow-lg"> <!-- Slightly increased opacity for better contrast -->
+
     <!-- Content Title -->
-    <h1 class="text-3xl font-bold text-gray-800 mb-4">{title}</h1> <!-- Reduced font size and margin -->
+    <h1 class="text-3xl font-semibold text-white mb-4">{title}</h1> <!-- Title color set to white -->
 
     <!-- Full Content Text -->
-    <p class="text-gray-600 leading-relaxed mb-4">
-    {content}
-     <br><br>
-      </p>
+    <p class="text-gray-100 leading-relaxed mb-4"> <!-- Brightened text color for improved readability -->
+      {content}
+      <br><br>
+    </p>
 
     <!-- Button to Return to the Previous Page (Story/Poetry List) -->
     {#text}
-    <a href="/{text}" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors duration-300"> <!-- Reduced button padding -->
+    <a href="/{text}" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-500 transition-colors duration-300"> <!-- Consistent button styling -->
       Back to Writings
     </a>
     {/text}
+
   </div>
 </div>
 {/data}
