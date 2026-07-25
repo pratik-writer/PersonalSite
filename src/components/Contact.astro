@@ -8,12 +8,9 @@
       Have a project in mind, a question, or just want to say hello?
     </p>
     <form
-      action="https://api.web3forms.com/submit"
-      method="POST"
+      id="contact-form"
       class="mt-10 space-y-6"
     >
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY" />
-      <input type="hidden" name="subject" value="New message from personal site" />
       <input type="checkbox" name="botcheck" class="hidden" />
       <div>
         <label for="name" class="text-sm font-medium">Name</label>
@@ -50,10 +47,12 @@
       </div>
       <button
         type="submit"
+        id="submit-btn"
         class="inline-flex items-center gap-2 border border-[var(--color-text)] px-6 py-2.5 text-sm font-medium transition-colors hover:bg-[var(--color-text)] hover:text-white"
       >
         Send message
       </button>
+      <p id="form-status" class="text-sm hidden"></p>
     </form>
     <div class="mt-16 flex gap-6">
       <a
@@ -83,3 +82,50 @@
     </div>
   </div>
 </section>
+
+<script>
+  const form = document.getElementById("contact-form") as HTMLFormElement;
+  const btn = document.getElementById("submit-btn") as HTMLButtonElement;
+  const status = document.getElementById("form-status") as HTMLParagraphElement;
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    const botcheck = form.querySelector<HTMLInputElement>('[name="botcheck"]');
+    if (botcheck?.checked) return;
+
+    btn.disabled = true;
+    btn.textContent = "Sending...";
+    status.classList.add("hidden");
+
+    const data = {
+      name: (form.querySelector("#name") as HTMLInputElement).value,
+      email: (form.querySelector("#email") as HTMLInputElement).value,
+      message: (form.querySelector("#message") as HTMLTextAreaElement).value,
+    };
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        status.textContent = "Message sent. I'll get back to you soon.";
+        status.className = "text-sm text-green-700";
+        form.reset();
+      } else {
+        const err = await res.json();
+        status.textContent = err.error || "Something went wrong. Try again.";
+        status.className = "text-sm text-red-600";
+      }
+    } catch {
+      status.textContent = "Network error. Please try again.";
+      status.className = "text-sm text-red-600";
+    }
+
+    btn.disabled = false;
+    btn.textContent = "Send message";
+  });
+</script>
