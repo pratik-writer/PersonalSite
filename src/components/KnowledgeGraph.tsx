@@ -22,7 +22,7 @@ export default function KnowledgeGraph() {
     y: number;
     node: GraphNode;
   } | null>(null);
-  const [dimensions, setDimensions] = useState({ width: 900, height: 700 });
+  const [dimensions, setDimensions] = useState({ width: 900, height: 550 });
 
   useEffect(() => {
     const container = containerRef.current;
@@ -30,7 +30,7 @@ export default function KnowledgeGraph() {
 
     const observer = new ResizeObserver((entries) => {
       const { width } = entries[0].contentRect;
-      const height = Math.max(Math.min(width * 0.85, 720), 500);
+      const height = Math.max(Math.min(width * 0.65, 550), 400);
       setDimensions({ width, height });
     });
 
@@ -219,12 +219,12 @@ export default function KnowledgeGraph() {
         <p className="mt-3 text-[var(--color-muted)]">
           An interactive map of my interests and how they connect. Drag nodes to explore. Hover for details.
         </p>
-        <div ref={containerRef} className="relative mt-10 w-full overflow-hidden rounded-lg border border-[var(--color-border)]">
+        <div ref={containerRef} className="relative mt-10 w-full overflow-hidden rounded-lg border border-[var(--color-border)] leading-[0]">
           <svg
             ref={svgRef}
             width={dimensions.width}
             height={dimensions.height}
-            className="w-full"
+            className="block w-full"
             role="img"
             aria-label="Interactive knowledge graph showing interconnected areas of interest"
           />

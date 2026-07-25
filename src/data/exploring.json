@@ -1,18 +1,22 @@
 [
   {
-    "title": "Knowledge graphs meet LLMs",
-    "description": "Hybrid retrieval systems that combine graph traversal with vector search for multi-hop reasoning."
+    "title": "Agentic AI",
+    "description": "Autonomous systems that plan, reason, and execute multi-step tasks — tool use, memory, and self-correction in LLM-driven agents."
   },
   {
-    "title": "Transformer architectures from scratch",
-    "description": "Implementing attention mechanisms and positional encoding without frameworks to build deep intuition."
+    "title": "Medical AI & Neuroimaging",
+    "description": "Diagnostic models combining brain scans, EEG signals, and clinical data for early detection of neurodegenerative conditions."
   },
   {
-    "title": "Medical image analysis",
-    "description": "Multimodal approaches to diagnostic AI — fusing different imaging modalities for better clinical accuracy."
+    "title": "Computational Neuroscience",
+    "description": "How biological neural circuits encode, process, and transmit information — bridging neuroscience and machine learning."
   },
   {
-    "title": "Systems programming in C/C++",
-    "description": "Understanding memory, hardware interfaces, and building things closer to the metal."
+    "title": "Knowledge Graphs & Hybrid Retrieval",
+    "description": "Combining structured graph traversal with vector search for multi-hop reasoning over complex document collections."
+  },
+  {
+    "title": "Semiconductor Architecture",
+    "description": "Understanding chip design, transistor physics, and the hardware constraints that shape modern computing."
   }
 ]
