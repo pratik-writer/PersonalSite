@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Knowledge graphs meet LLMs",
+    "description": "Hybrid retrieval systems that combine graph traversal with vector search for multi-hop reasoning."
+  },
+  {
+    "title": "Transformer architectures from scratch",
+    "description": "Implementing attention mechanisms and positional encoding without frameworks to build deep intuition."
+  },
+  {
+    "title": "Medical image analysis",
+    "description": "Multimodal approaches to diagnostic AI — fusing different imaging modalities for better clinical accuracy."
+  },
+  {
+    "title": "Systems programming in C/C++",
+    "description": "Understanding memory, hardware interfaces, and building things closer to the metal."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Domino AI",
+    "description": "Hybrid RAG system for financial contagion mapping. Combines vector search with knowledge-graph BFS traversal to answer multi-hop exposure queries that plain retrieval can't resolve. Achieved 1.00 retrieval and entity recall across benchmarks.",
+    "tags": ["LangChain", "Knowledge Graphs", "RAG", "LLMs"],
+    "url": "https://github.com/pratik-writer"
+  },
+  {
+    "title": "Medical Image Report Generation",
+    "description": "CNN-Transformer encoder-decoder that automatically writes diagnostic reports from chest X-rays. Achieved 37.68% BLEU-1, 27.96% ROUGE-L, and 31.50% METEOR on the Indiana University dataset.",
+    "tags": ["PyTorch", "Computer Vision", "Transformers"],
+    "url": "https://github.com/pratik-writer"
+  },
+  {
+    "title": "Parkinson's Diagnosis from EEG",
+    "description": "Spatial-temporal transformer model that detects Parkinson's Disease from raw EEG brainwave data. Handled complex time-series preprocessing, achieving 78% balanced accuracy and 0.89 ROC AUC.",
+    "tags": ["Deep Learning", "Time Series", "Transformers"],
+    "url": "https://github.com/pratik-writer"
+  },
+  {
+    "title": "Sambidhaan 2072",
+    "description": "RAG system that accurately answers questions about the Constitution of Nepal. Uses Groq's LLaMA 3 70B with LangChain for fast retrieval, served through a Streamlit interface.",
+    "tags": ["RAG", "LangChain", "LLaMA", "Streamlit"],
+    "url": "https://github.com/pratik-writer"
+  },
+  {
+    "title": "Real-Time Handwriting Recognition Pen",
+    "description": "Hardware-software system using Arduino Nano and MPU-6050 sensor to track hand movements. Custom dataset of A-Z motions, classified at 90% accuracy with a CNN-LSTM model.",
+    "tags": ["Arduino", "CNN", "LSTM", "Embedded"],
+    "url": "https://github.com/pratik-writer"
+  },
+  {
+    "title": "Multimodal AI for Parkinson's",
+    "description": "Fuses MRI and DAT-SPECT brain scans using ResNet-18 feature extraction fed into a transformer. Multimodal approach for improved diagnostic confidence.",
+    "tags": ["PyTorch", "Medical AI", "Multimodal"],
+    "url": "https://github.com/pratik-writer"
+  }
+]
