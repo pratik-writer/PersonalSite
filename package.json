@@ -1,25 +1,26 @@
 {
-  "name": "personal-site-project",
+  "name": "personal-site",
+  "type": "module",
   "version": "1.0.0",
-  "description": "Lets see what i will end up making",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.4.4",
-    "body-parser": "^1.20.3",
-    "consolidate": "^1.0.4",
-    "dotenv": "^16.4.5",
-    "dustjs-express": "^0.1.0",
-    "dustjs-linkedin": "^2.7.5",
-    "ejs": "^3.1.10",
-    "express": "^4.21.0",
-    "nodemailer": "^6.9.15",
-    "nodemon": "^3.1.7",
-    "path": "^0.12.7",
-    "pg": "^8.13.1"
+    "@astrojs/react": "^4.2.0",
+    "astro": "^5.7.0",
+    "d3": "^7.9.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/d3": "^7.4.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.7.0"
   }
 }
