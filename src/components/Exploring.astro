@@ -1,0 +1,19 @@
+---
+import exploring from "../data/exploring.json";
+---
+
+<section class="reveal px-6 py-24 md:py-32">
+  <div class="mx-auto max-w-2xl">
+    <h2 class="text-2xl font-semibold tracking-tight">Currently exploring</h2>
+    <div class="mt-10 space-y-8">
+      {exploring.map((item) => (
+        <div>
+          <h3 class="text-base font-medium">{item.title}</h3>
+          <p class="mt-1.5 text-[0.9375rem] text-[var(--color-muted)]">
+            {item.description}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

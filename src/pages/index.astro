@@ -1,0 +1,25 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.astro";
+import Hero from "../components/Hero.astro";
+import About from "../components/About.astro";
+import KnowledgeGraph from "../components/KnowledgeGraph.tsx";
+import Projects from "../components/Projects.astro";
+import Exploring from "../components/Exploring.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout>
+  <Nav />
+  <main id="main">
+    <Hero />
+    <About />
+    <KnowledgeGraph client:visible />
+    <Projects />
+    <Exploring />
+    <Contact />
+  </main>
+  <Footer />
+</Layout>
