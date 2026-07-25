@@ -211,7 +211,7 @@ export default function KnowledgeGraph() {
   }, [dimensions]);
 
   return (
-    <section id="graph" className="px-6 py-24 md:py-32">
+    <section id="graph" className="px-6 py-14 md:py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="text-2xl font-semibold tracking-tight">
           How I think

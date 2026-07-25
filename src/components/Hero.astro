@@ -1,8 +1,28 @@
 ---
+const interests = [
+  "artificial intelligence", "hip-hop", "football", "physics",
+  "mathematics", "cricket", "neural networks", "politics",
+  "cinema", "transformers", "linear algebra", "poetry",
+  "philosophy", "signals", "startups", "knowledge graphs",
+  "backpropagation", "probability", "electronics", "rap",
+  "gradient descent", "world cup", "literature", "entropy",
+  "machine learning", "deep learning", "computer vision",
+  "calculus", "statistics", "embedded systems", "research",
+];
 ---
 
-<section class="flex min-h-screen flex-col items-center justify-center px-6">
-  <div class="text-center">
+<section class="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 py-20">
+  <div class="pointer-events-none absolute inset-0 flex select-none flex-wrap items-center justify-center gap-x-6 gap-y-3 px-8 py-16 opacity-[0.07]" aria-hidden="true">
+    {interests.map((word, i) => (
+      <span
+        class="whitespace-nowrap font-medium leading-none"
+        style={`font-size: ${14 + (i * 7) % 18}px;`}
+      >
+        {word}
+      </span>
+    ))}
+  </div>
+  <div class="relative text-center">
     <h1 class="text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.1] tracking-tight">
       Pratik Pokharel
     </h1>
@@ -10,8 +30,8 @@
       Machine Learning. Computer Vision. Systems.
     </p>
   </div>
-  <div class="mt-16 animate-bounce">
-    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="var(--color-muted)" stroke-width="1.5" class="opacity-50">
+  <div class="relative mt-12">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="var(--color-muted)" stroke-width="1.5" class="animate-bounce opacity-40">
       <path d="M4 7l6 6 6-6" />
     </svg>
   </div>
